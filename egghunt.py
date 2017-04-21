@@ -3,10 +3,7 @@ from flask import Flask, render_template, send_from_directory
 app = Flask(__name__)
 
 def tuplify(d):
-    result = []
-    for key in d:
-        result.append((key, d[key]))
-    return result
+    return [(key, d[key]) for key in d]
 
 clues = {
 1: """
