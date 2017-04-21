@@ -1,0 +1,26 @@
+body {
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#content {
+    width: 80%;
+    font-size: 50pt;
+    font-family: 'Open Sans';
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: url("/img/easter-eggs4.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 8px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 80px;
+    padding: 50px;
+}
