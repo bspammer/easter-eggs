@@ -112,4 +112,4 @@ def secret():
 """ % "".join(["<h1><a href='/%s'>%d</a></h1><br/>" % (code, number) for code, number in sorted(tuplify(code_to_id), key=lambda x:x[1])])
 
 if __name__ == "__main__":
-    app.run(port=80, host="0.0.0.0")
+    app.run(threaded=True, host="0.0.0.0", port=80)
